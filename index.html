@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(135deg,#1e293b,#334155);
+}
+
+header h1{
+    font-size:50px;
+    color:#38bdf8;
+    text-shadow:0 0 15px cyan;
+}
+
+header p{
+    margin-top:15px;
+    color:#cbd5e1;
+    font-size:18px;
+}
+
+/* Intro */
+
+.intro{
+    text-align:center;
+    padding:40px;
+}
+
+.intro h2{
+    color:cyan;
+    margin-bottom:15px;
+}
+
+.intro p{
+    width:75%;
+    margin:auto;
+    line-height:1.8;
+    color:#cbd5e1;
+}
+
+/* Team */
+
+.team{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:35px;
+    padding:50px;
+}
+
+.card{
+    width:320px;
+    background:#1e293b;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    transition:0.5s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+    transform:translateY(-12px);
+    box-shadow:
+    0 0 20px cyan,
+    0 0 40px cyan;
+}
+
+.card img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    border:4px solid cyan;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.card h2{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#cbd5e1;
+    margin-bottom:20px;
+}
+
+/* Button */
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:cyan;
+    color:black;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.4s;
+}
+
+.btn:hover{
+    background:white;
+    transform:scale(1.08);
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    margin-top:30px;
+}
+
+footer h3{
+    color:#38bdf8;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.team{
+    flex-direction:column;
+    align-items:center;
+}
+
+header h1{
+    font-size:35px;
+}
+
+.intro p{
+    width:90%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>✨ TEAM PORTFOLIO ✨</h1>
+
+<p>
+Welcome To Our Professional Portfolio Website
+</p>
+
+</header>
+
+<section class="intro">
+
+<h2>👨‍💻 Meet Our Team</h2>
+
+<p>
+This portfolio website showcases our personal profiles,
+skills, qualifications, projects, achievements and contact details.
+Click on any profile card below to explore individual portfolios.
+</p>
+
+</section>
+
+<section class="team">
+
+<!-- Sandhya -->
+
+<div class="card">
+
+<img src="1733032485912.jpg" alt="Sandhya">
+
+<h2>Sandhya</h2>
+
+<p>
+CSE Student | Web Developer | AI Enthusiast
+</p>
+
+<a href="sandhya.html" class="btn">
+View Profile
+</a>
+
+</div>
+
+<!-- Sreelatha -->
+
+<div class="card">
+
+<img src="sreelatha.jpg.jpeg" alt="Sreelatha">
+
+<h2>Sreelatha</h2>
+
+<p>
+Creative Designer | Student | Team Member
+</p>
+
+<a href="sreelatha.html" class="btn">
+View Profile
+</a>
+
+</div>
+
+<!-- Nikhila -->
+
+<div class="card">
+
+<img src="nikhila.jpeg" alt="Nikhila">
+
+<h2>Nikhila</h2>
+
+<p>
+Frontend Developer | Student | Team Member
+</p>
+
+<a href="nikhila.html" class="btn">
+View Profile
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>
+🌟 Thank You For Visiting Our Team Portfolio 🌟
+</h3>
+
+</footer>
+<a href="sandhya.html" class="btn">View Profile</a>
+
+<a href="sreelatha.html" class="btn">View Profile</a>
+
+<a href="nikhila.html" class="btn">View Profile</a>
+
+</body>
+</html>

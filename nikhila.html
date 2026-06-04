@@ -1,0 +1,414 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikhila Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background:#020617;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:cyan;
+}
+
+.hero{
+    text-align:center;
+    padding:50px;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid cyan;
+    object-fit:cover;
+    box-shadow:0 0 20px cyan;
+}
+
+.hero h1{
+    margin-top:20px;
+    color:cyan;
+    font-size:45px;
+}
+
+.hero p{
+    color:#cbd5e1;
+    margin-top:10px;
+}
+
+.section{
+    padding:40px;
+}
+
+.box{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    margin-top:20px;
+    box-shadow:0 0 10px rgba(0,255,255,0.3);
+}
+
+h2{
+    color:cyan;
+    margin-bottom:15px;
+}
+
+.timeline{
+    border-left:4px solid cyan;
+    padding-left:20px;
+    line-height:2;
+}
+
+.bar{
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+    margin-bottom:15px;
+}
+
+.fill{
+    color:white;
+    text-align:right;
+    padding:10px;
+}
+
+.html{
+    width:95%;
+    background:#ff5722;
+}
+
+.css{
+    width:90%;
+    background:#2196f3;
+}
+
+.js{
+    width:85%;
+    background:#ffc107;
+}
+
+.react{
+    width:80%;
+    background:#00bcd4;
+}
+
+.bootstrap{
+    width:75%;
+    background:#8e44ad;
+}
+
+.project{
+    background:#334155;
+    padding:15px;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+.project:hover{
+    transform:scale(1.02);
+    transition:0.4s;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    background:cyan;
+    color:black;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.btn:hover{
+    background:white;
+}
+
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    padding:10px 20px;
+    background:cyan;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#journey">Journey</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certificates">Certificates</a>
+<a href="#contact">Contact</a>
+<a href="index.html">Home</a>
+</nav>
+
+<section class="hero">
+
+<img src="nikhila.jpeg" alt="Nikhila">
+
+<h1>Nikhila</h1>
+
+<p>
+Frontend Developer | Creative Thinker | Student
+</p>
+
+</section>
+
+<section class="section" id="about">
+
+<div class="box">
+
+<h2>👩 About Me</h2>
+
+<p>
+I am Nikhila, a passionate student with a strong interest in web development and modern technologies. I enjoy creating responsive websites, learning new frameworks, and improving my programming skills through projects.
+</p>
+
+</div>
+
+</section>
+
+<section class="section" id="journey">
+
+<div class="box">
+
+<h2>🚀 My Journey</h2>
+
+<div class="timeline">
+
+👶 Childhood<br>
+🏫 School Education<br>
+📚 Intermediate Education<br>
+💻 Started Learning HTML & CSS<br>
+🌐 Frontend Development Journey<br>
+🚀 Future Full Stack Developer
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="skills">
+
+<div class="box">
+
+<h2>💡 Skills</h2>
+
+HTML
+<div class="bar"><div class="fill html">95%</div></div>
+
+CSS
+<div class="bar"><div class="fill css">90%</div></div>
+
+JavaScript
+<div class="bar"><div class="fill js">85%</div></div>
+
+React JS
+<div class="bar"><div class="fill react">80%</div></div>
+
+Bootstrap
+<div class="bar"><div class="fill bootstrap">75%</div></div>
+
+</div>
+
+</section>
+
+<section class="section" id="projects">
+
+<div class="box">
+
+<h2>📂 Projects</h2>
+
+<div class="project">
+<h3>Personal Portfolio Website</h3>
+<p>Designed a responsive personal portfolio website.</p>
+</div>
+
+<div class="project">
+<h3>Restaurant Website</h3>
+<p>Created a food ordering website UI.</p>
+</div>
+
+<div class="project">
+<h3>Interactive Image Gallery</h3>
+<p>Built an image gallery with hover effects.</p>
+</div>
+
+<div class="project">
+<h3>Student Management System</h3>
+<p>Basic web-based student information project.</p>
+</div>
+
+<div class="project">
+<h3>Online Shopping Website UI</h3>
+<p>Frontend design for an e-commerce platform.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="certificates">
+
+<div class="box">
+
+<h2>🏆 Certifications</h2>
+
+<ul>
+<li>HTML & CSS Certification</li>
+<li>JavaScript Fundamentals</li>
+<li>Frontend Development Basics</li>
+<li>React JS Introduction</li>
+</ul>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="box">
+
+<h2>📈 Achievements</h2>
+
+<p>🏆 Developed 5+ Web Projects</p>
+<p>📜 Earned Multiple Technical Certificates</p>
+<p>💻 Learned Frontend Technologies</p>
+<p>🚀 Participated in Technical Events</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="box">
+
+<h2>🎯 Future Goal</h2>
+
+<p>
+To become a Full Stack Developer and build innovative web applications that solve real-world problems.
+</p>
+
+</div>
+
+</section>
+<section class="section" id="resume">
+<div class="box">
+<h2>📄 Resume</h2>
+<a href="nikhila resume.pdf" class="btn" download>
+📥 Download Resume
+</a>
+
+<a href="nikhila resume.pdf" target="_blank" class="btn">
+👀 View Resume
+</a>
+
+</div>
+</section>
+
+<section class="section" id="contact">
+
+<div class="box">
+
+<h2>📞 Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="5" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="box">
+
+<h2>💭 Favorite Quote</h2>
+
+<p>
+"Success is the sum of small efforts repeated day in and day out."
+</p>
+
+</div>
+
+</section>
+
+<center>
+<a href="index.html" class="btn">
+🏠 Back To Home
+</a>
+</center>
+
+<footer>
+
+<h3>
+🌟 Thank You For Visiting My Portfolio 🌟
+</h3>
+
+</footer>
+
+</body>
+</html>
+```
